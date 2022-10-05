@@ -4,9 +4,6 @@
 //
 //  Created by Alessia on 9/27/22.
 //
-// MAKE GAME REPEAT LOOP
-// MAKE WELCOME MENU
-// MAKE BY LETTER AND BY WORD OPTIONS
 
 #include <iostream>
 #include <string>

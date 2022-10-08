@@ -155,6 +155,7 @@ int main() {
   // Must pass a file_path to RandomWordGenerator()
   std::string word = RandomWordGenerator("");
   transform(word.begin(), word.end(), word.begin(), toupper);
+  CheckGameWidth(word);
   std::string guess_state = GuessState(word, ""); std::string current_try = ""; std::string letters_used = "";
   
   int tries = 0;
